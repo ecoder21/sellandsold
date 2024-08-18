@@ -1,9 +1,9 @@
 /**
- *  ? olx-logo.svg ----- login page signup page
+ *  ? logo.svg ----- login page signup page
  */
 
 /**
- *  !   olx brand name  header-component
+ *  !   brand name  header-component
  
 
 <svg

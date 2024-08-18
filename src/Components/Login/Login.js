@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import {useHistory} from "react-router-dom";
 import { Firebase } from "../../firebase/config";
-import Logo from "../../olx-logo.png";
+import Logo from "../../olx-logo.jpg";
 import RoundLoading from "../Loading/RoundLoading";
 import "./Login.css";
 
@@ -32,7 +32,7 @@ function Login() {
           <input
             className="input"
             type="email"
-            placeholder="sijeesh@gmail.com"
+            placeholder="sanjeevani@gmail.com"
             name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}

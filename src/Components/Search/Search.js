@@ -49,7 +49,7 @@ function Search() {
       <div className="searchInputs">
         <input
           type="text"
-          placeholder="Find Cars,Mobile,Motorcycles and more..."
+          placeholder="Find anything.."
           value={wordEntered}
           onChange={handleFilter}
         />

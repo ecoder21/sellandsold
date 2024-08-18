@@ -19,21 +19,21 @@ function Banner() {
             >
               {" "}
               <option value="null">ALL CATEGORIES</option>
-              <option value="Cars">Cars</option>
-              <option value="Cameras & Lenses">Cameras & Lenses</option>
-              <option value="Computers & Laptops">Computers & Laptops</option>
-              <option value="Mobile Phones">Mobile Phones</option>
-              <option value="Motorcycles">Motorcycles</option>
-              <option value="Tablets">Tablets</option>
+              <option value="Books">Books</option>
+              <option value="PYQs">PYQs</option>
+              <option value="Cycle">Cycle</option>
+              <option value="Electronics">Electronics</option>
+              <option value="Households">Households</option>
+              <option value="Other">Other</option>
             </select>
           </div>
           <div className="otherQuickOptions">
-            <span onClick={()=>setCategory("Cars")} >Cars</span>
-            <span onClick={()=>setCategory("Cameras & Lenses")} >Cameras & Lenses</span>
-            <span onClick={()=>setCategory("Computers & Laptops")} >Computers & Laptops</span>
-            <span onClick={()=>setCategory("Mobile Phones")} >Mobile Phones</span>
-            <span onClick={()=>setCategory("Motorcycles")} >Motorcycles</span>
-            <span onClick={()=>setCategory("Tablets")} >Tablets</span>
+            <span onClick={()=>setCategory("Books")} >Books</span>
+            <span onClick={()=>setCategory("PYQs")} >PYQs</span>
+            <span onClick={()=>setCategory("Cycle")} >Cycle</span>
+            <span onClick={()=>setCategory("Electronics")} >Electronics</span>
+            <span onClick={()=>setCategory("Households")} >Households</span>
+            <span onClick={()=>setCategory("Others")} >Others</span>
           </div>
         </div>
         <div className="banner">

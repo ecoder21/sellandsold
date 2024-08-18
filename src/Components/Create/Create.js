@@ -64,12 +64,12 @@ const Create = () => {
           }}
           className="input"
         > <option >Select Category</option>
-          <option value="Cars">Cars</option>
-          <option value="Cameras & Lenses">Cameras & Lenses</option>
-          <option value="Computers & Laptops">Computers & Laptops</option>
-          <option value="Mobile Phones">Mobile Phones</option>
-          <option value="Motorcycles">Motorcycles</option>
-          <option value="Tablets">Tablets</option>
+          <option value="Books">Books</option>
+          <option value="PYQs">PYQs</option>
+          <option value="Cycle">Cycle</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Households">Households</option>
+          <option value="Others">Others</option>
         </select>
         <br />
         <label>Price</label>
